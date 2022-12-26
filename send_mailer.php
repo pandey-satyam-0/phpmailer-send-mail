@@ -24,11 +24,8 @@ $mail->SMTPAuth   = TRUE;
 $mail->SMTPSecure = "tls";
 $mail->Port       = 587;
 $mail->Host       = "smtp.gmail.com";
-$mail->Username   = "dharmitan88@gmail.com";
-$mail->Password   = "qsrbotylksltwxka";
-// $mail->Host       = "alliedinfosoft.com";
-// $mail->Username   = "satyam@alliedinfosoft.com";
-// $mail->Password   = "Satyam@Allied";
+$mail->Username   = "gmail account id";
+$mail->Password   = "gmail account password";
 $mail->SMTPOptions = array(
 	'ssl' => array(
 		'verify_peer' => false,
@@ -37,8 +34,8 @@ $mail->SMTPOptions = array(
 	)
 );
 $mail->IsHTML(true);
-$mail->AddAddress("viralsvideostudios@gmail.com");
-$mail->SetFrom("dharmitan88@gmail.com");
+$mail->AddAddress("to account id");
+$mail->SetFrom("from account id");
 $mail->Subject = "Contact Detail";
 $mail->Body = "<html><head><style>
 			.bordr{border-top: 0.3px solid lightgray; padding-top:12px; margin:8px;}
