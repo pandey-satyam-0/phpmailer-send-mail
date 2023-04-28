@@ -35,7 +35,7 @@ $mail->SMTPOptions = array(
 );
 $mail->IsHTML(true);
 $mail->AddAddress("to account id");
-$mail->SetFrom("from account id");
+//$mail->SetFrom("from account id");
 $mail->Subject = "Contact Detail";
 $mail->Body = "<html><head><style>
 			.bordr{border-top: 0.3px solid lightgray; padding-top:12px; margin:8px;}
